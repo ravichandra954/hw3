@@ -1,0 +1,83 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Styling the header section */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling the main content area */
+main {
+    padding: 20px;
+}
+
+/* Styling headings */
+h1, h2, h3 {
+    color: #FFD700; /* Gold color for headings */
+}
+
+/* Styling paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Styling blog entry with visual art */
+.blog-entry {
+    text-align: center; /* Center align the content */
+}
+
+.blog-entry img {
+    width: 250px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make the image a block element for margin auto */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.blog-entry figcaption {
+    font-style: italic; /* Italicize the caption text */
+    margin-top: 10px; /* Add space between image and caption */
+}
+
+.blog-entry p {
+    margin-top: 20px; /* Add space above the paragraph */
+    line-height: 1.5; /* Set the line height for readability */
+}
+
+
